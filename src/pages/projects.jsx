@@ -7,43 +7,31 @@ import logoAnimaginary from '@/images/logos/animaginary.svg'
 import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoTTP from '@/images/logos/ttp.svg'
+import logoAngloOrthodox from '@/images/logos/anglo-orthodox.svg'
+import logoOnceEvery from '@/images/logos/once-every-two-weeks.png'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Tis the Podcast',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      'Determined to keep the Christmas spirit alive 365 days a year.',
+    link: { href: 'http://tisthepodcast.com', label: 'tisthepodcast.com' },
+    logo: logoTTP,
   },
   {
-    name: 'Animaginary',
+    name: 'AngloOrthodox',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+      'The light of the East at home in the West.',
+    link: { href: 'https://angloorthodox.com', label: 'angloorthodox.com' },
+    logo: logoAngloOrthodox,
   },
   {
-    name: 'HelioStream',
+    name: 'Once Every Two Weeks',
     description:
       'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
-  },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+    link: { href: 'https://onceeverytwoweeks.com', label: 'onceeverytwoweeks.com' },
+    logo: logoOnceEvery,
   },
 ]
 

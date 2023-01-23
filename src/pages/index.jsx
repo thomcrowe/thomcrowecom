@@ -17,9 +17,14 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import logoAirbnb from '@/images/logos/airbnb.svg'
+import logoMobilewalla from '@/images/logos/mobilewalla.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoInfluxDB from '@/images/logos/influxdb.svg'
+import logoCompose from '@/images/logos/compose.svg'
+import logoSererless from '@/images/logos/serverless.svg'
+import logoEquinix from '@/images/logos/equinix.svg'
+import logoTeleport from '@/images/logos/teleport.svg'
+import logoVercel from '@/images/logos/vercel.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
@@ -139,35 +144,56 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
+      company: 'Vercel',
+      title: 'Director of digital',
+      logo: logoVercel,
+      start: '2021',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
+      company: 'Mobilewalla',
+      title: 'Director of Platform Marketing',
+      logo: logoMobilewalla,
+      start: '2021',
+      end: '2021',
+    },
+    {
+      company: 'Equinix',
+      title: 'Developer Marketing Manager',
+      logo: logoEquinix,
+      start: '2020',
+      end: '2021',
+    },
+    {
+      company: 'Teleport',
+      title: 'Community Manager',
+      logo: logoTeleport,
+      start: '2019',
+      end: '2020',
+    },
+    {
+      company: 'InfluxData',
+      title: 'Community Manager',
+      logo: logoInfluxDB,
+      start: '2019',
       end: '2019',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      company: 'Serverless',
+      title: 'Community Manager',
+      logo: logoSererless,
+      start: '2018',
+      end: '2019',
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      company: 'Compose/IBM',
+      title: 'Sr. Product Marketing Manager',
+      logo: logoCompose,
+      start: '2014',
+      end: '2018',
     },
   ]
 
@@ -211,10 +237,6 @@ function Resume() {
           </li>
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button>
     </div>
   )
 }
@@ -251,42 +273,39 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Spencer Sharp - Software designer, founder, and amateur astronaut
+          Thom Crowe - Lackluster husband, above-average dad, and Christmas enthusiast
         </title>
         <meta
           name="description"
-          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="I’m Thom -husband, father armchair theologian and digital marketer in Tulsa, Oklahoma.. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and amateur astronaut.
+            Lackluster husband, above-average dad, and Christmas enthusiast.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I’m Thom, a digital marketer by dad and armchair theologian, podcaster, writer, amateur home chef, and beer afficenado by night. When not working, I'm a typical family man with a propensity to create.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://twitter.com"
+              href="https://twitter.com/thomcrowe"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
             />
             <SocialLink
-              href="https://instagram.com"
+              href="https://instagram.com/thomcrowe"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com"
+              href="https://github.com/thomcrowe"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/thomcrowe"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />

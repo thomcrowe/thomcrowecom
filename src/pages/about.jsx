@@ -10,7 +10,7 @@ import {
   GitHubIcon,
   LinkedInIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/portrait.jpg'
+import portraitImage from '@/images/avatar.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -41,10 +41,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Spencer Sharp</title>
+        <title>About - Thom</title>
         <meta
           name="description"
-          content="I’m Spencer Sharp. I live in New York City, where I design the future."
+          content="I’m Thom and I live in Tulsa, Oklahoma with my loving wife, amazing daughter, and our two pups."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -61,58 +61,59 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Spencer Sharp. I live in New York City, where I design the
-              future.
+                I’m Thom and I live in Tulsa, Oklahoma with my loving wife, 
+                amazing daughter, and our two pups.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’ve loved making things for as long as I can remember, and
-                wrote my first program when I was 6 years old, just two weeks
-                after my mom brought home the brand new Macintosh LC 550 that I
-                taught myself to type on.
+                Hey there, I'm Thom Crowe. A little about me, I was ordained a deacon 
+                in the Orthodox Church before joining the Anglican tradition, work in 
+                tech marketing, am a dad to a sweet little girl and husband to a great 
+                wife who runs the Made Shop here in Tulsa.
+
               </p>
               <p>
-                The only thing I loved more than computers as a kid was space.
-                When I was 8, I climbed the 40-foot oak tree at the back of our
-                yard while wearing my older sister’s motorcycle helmet, counted
-                down from three, and jumped — hoping the tree was tall enough
-                that with just a bit of momentum I’d be able to get to orbit.
+                I’m an avid reader, beer aficionado, lover of theology and history, and 
+                aspiring coffee snob. We have a pretty happy life.
               </p>
               <p>
-                I spent the next few summers indoors working on a rocket design,
-                while I recovered from the multiple surgeries it took to fix my
-                badly broken legs. It took nine iterations, but when I was 15 I
-                sent my dad’s Blackberry into orbit and was able to transmit a
-                photo back down to our family computer from space.
-              </p>
-              <p>
-                Today, I’m the founder of Planetaria, where we’re working on
-                civilian space suits and manned shuttle kits you can assemble at
-                home so that the next generation of kids really <em>can</em>{' '}
-                make it to orbit — from the comfort of their own backyards.
-              </p>
+              Still reading? Well, here are some other random tidbits:</p>
+              <ul>
+                <li>• My favorite bands are Jimmy Eat World & The Cure </li>
+                <li>• I love fantasy books and movies (I’m kinda obsessed with the Lord of the Rings Trilogy, the Wizarding World of Harry Potter and Westeros)</li>
+                <li>• If I lived in one of those fantasy worlds, I would be a human (TLOR), live in Ravenclaw (HP), and be a Baratheon (ASOIF)</li>
+                <li>• My three favorite books are: The Brothers Karamazov by Fyodor Dostoevsky, Infinite Jest by David Foster Wallace & The Cat’s Cradle by Kurt Vonnegut</li>
+                <li>• I’m one of the only people I know who loves Mr. Pibb</li>
+                <li>• I have an unhealthy obsession with Christmas</li>
+                <li>• I absolutely love to cook</li>
+                <li>• I have studied English, Political Science & Theology in college/post-grad</li>
+                <li>• I have seen every episode of The Simpsons and Family Guy at least once</li>
+                <li>• I can recite most of Monty Python’s Quest for the Holy Grail</li>
+                <li>• My favorite dinosaur is the Triceratops</li>
+                <li>• I love Middle Eastern and Indian food</li>
+              </ul>
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="#" icon={TwitterIcon}>
+              <SocialLink href="https://twitter.com/thomcrowe" icon={TwitterIcon}>
                 Follow on Twitter
               </SocialLink>
-              <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+              <SocialLink href="https://instagram.com/thomcrowe" icon={InstagramIcon} className="mt-4">
                 Follow on Instagram
               </SocialLink>
-              <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+              <SocialLink href="https://github.com/thomcrowe" icon={GitHubIcon} className="mt-4">
                 Follow on GitHub
               </SocialLink>
-              <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+              <SocialLink href="https://linkedin.com/in/thomcrowe" icon={LinkedInIcon} className="mt-4">
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:spencer@planetaria.tech"
+                href="mailto:thom@thomcrowe.com"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                spencer@planetaria.tech
+                thom@thomcrowe.com
               </SocialLink>
             </ul>
           </div>
