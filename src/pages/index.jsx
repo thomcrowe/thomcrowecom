@@ -286,7 +286,7 @@ export default function Home({ articles }) {
             Lackluster husband, above-average dad, and Christmas enthusiast.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Thom, a digital marketer by dad and armchair theologian, podcaster, writer, amateur home chef, and beer afficenado by night. When not working, I'm a typical family man with a propensity to create.
+            I&apos;m Thom, a digital marketer by dad and armchair theologian, podcaster, writer, amateur home chef, and beer afficenado by night. When not working, I'm a typical family man with a propensity to create.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

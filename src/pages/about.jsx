@@ -66,7 +66,7 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                Hey there, I'm Thom Crowe. A little about me, I was ordained a deacon 
+                Hey there, I&apos;m Thom Crowe. A little about me, I was ordained a deacon 
                 in the Orthodox Church before joining the Anglican tradition, work in 
                 tech marketing, am a dad to a sweet little girl and husband to a great 
                 wife who runs the Made Shop here in Tulsa.
