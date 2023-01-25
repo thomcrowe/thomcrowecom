@@ -145,7 +145,7 @@ function Resume() {
   let resume = [
     {
       company: 'Vercel',
-      title: 'Director of digital',
+      title: 'Director of Digital',
       logo: logoVercel,
       start: '2021',
       end: {
