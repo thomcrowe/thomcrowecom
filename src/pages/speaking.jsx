@@ -29,54 +29,66 @@ export default function Speaking() {
   return (
     <>
       <Head>
-        <title>Speaking - Spencer Sharp</title>
+        <title>Speaking - Thom Crowep</title>
         <meta
           name="description"
-          content="I’ve spoken at events all around the world and been interviewed for many podcasts."
+          content="I&apos;m available to speak about all things Christmas, Anglo-Christianity, and growth/marketing.."
         />
       </Head>
       <SimpleLayout
-        title="I’ve spoken at events all around the world and been interviewed for many podcasts."
-        intro="One of my favorite ways to share my ideas is live on stage, where there’s so much more communication bandwidth than there is in writing, and I love podcast interviews because they give me the opportunity to answer questions instead of just present my opinions."
+        title="In-person and virutal events and podcasts where I've spoken."
+        intro="I'm up for speaking on topics ranging from Christmas to Anglo-Christianity, to all things growth and marketing."
       >
         <div className="space-y-20">
-          <SpeakingSection title="Conferences">
+          <SpeakingSection title="Where to hear me">
             <Appearance
-              href="#"
-              title="In space, no one can watch you stream — until now"
-              description="A technical deep-dive into HelioStream, the real-time streaming library I wrote for transmitting live video back to Earth."
-              event="SysConf 2021"
-              cta="Watch video"
+              href="'https://www.rnz.co.nz/national/programmes/afternoons/audio/2018871818/tis-the-podcast-makers-on-christmas-controversies"
+              title="'Tis the podcast makers on Christmas controversies!"
+              description="December the 25th isn't a date on the calendar, it's a way of life for three super Christmas nerds who jingle their bells year-round. On this episode, they talk through Christmas controversies."
+              event="Afternoons with Jessie, Radio New Zeland"
+              cta="Listen to the Show"
             />
             <Appearance
-              href="#"
-              title="Lessons learned from our first product recall"
-              description="They say that if you’re not embarassed by your first version, you’re doing it wrong. Well when you’re selling DIY space shuttle kits it turns out it’s a bit more complicated."
-              event="Business of Startups 2020"
-              cta="Watch video"
+              href="https://goodpods.com/podcasts/totally-rad-christmas-121060/batman-and-dc-comics-pt-1-w-thom-crowe-8674434"
+              title="Batman and DC Comics pt 1"
+              description="Thom Crowe joins Gerry D on Totally Rad Christmas to for the first part in a series all about DC Comics and most especially Batman! &quot;Merry Christmas...and a Deadly New Year!,&quot;&quot;Wanted: Santa Claus--Dead or Alive!&quot;, &quot;The Mystery of Christmas Lost!&quot;, &quot;Who's Afraid of the Big Red S?&quot;, and more!!"
+              event="Totally Rad Christmas"
+              cta="Listen to the Podcast"
             />
-          </SpeakingSection>
-          <SpeakingSection title="Podcasts">
             <Appearance
-              href="#"
-              title="Using design as a competitive advantage"
-              description="How we used world-class visual design to attract a great team, win over customers, and get more press for Planetaria."
-              event="Encoding Design, July 2022"
+              href="https://adventcalendar.house/episodes/smurfs-christmas-special-dPS_fbhR"
+              title="The Smurfs’ Christmas Special"
+              description="It’s Christmas Eve in the Advent Calendar House as we walk through a ring of fire back to 1982 to dance with the Smurfs and watch goodness make the badness go away."
+              event="Advent Calendar House"
+              cta="Listen to the Podcast"
+            />
+            <Appearance
+              href="https://hop.online/podcasts/developer-marketing-101-with-thom-crowe-director-of-growth-at-vercel/"
+              title="Developer Marketing 101 with Thom Crowe"
+              description="Meet Thom Crowe, Director of Growth Acquisition at Vercel – a platform for frontend frameworks and static sites. In this episode, Thom gets into the fundamentals of developer marketing, how organic can guide paid acquisition targeting, and responding to need versus creating it"
+              event="Hop Online"
               cta="Listen to podcast"
             />
             <Appearance
-              href="#"
-              title="Bootstrapping an aerospace company to $17M ARR"
-              description="The story of how we built one of the most promising space startups in the world without taking any capital from investors."
-              event="The Escape Velocity Show, March 2022"
-              cta="Listen to podcast"
+              href="https://www.crowdcast.io/e/dscconf2021/46"
+              title="Driving Successful AI Projects at Scale - What's Needed in Your Industry?"
+              description="A panel discussion on how to use AI projects across industries"
+              event="Data Science Connection Conference, October 2021"
+              cta="Watch the Panel"
             />
             <Appearance
-              href="#"
-              title="Programming your company operating system"
-              description="On the importance of creating systems and processes for running your business so that everyone on the team knows how to make the right decision no matter the situation."
-              event="How They Work Radio, September 2021"
-              cta="Listen to podcast"
+              href="https://techstrong.tv/videos/2019-time-series-data-summit/how-to-use-time-series-data-to-measure-anything"
+              title="How to Use Time Series Data to Measure Anything"
+              description="In this presentation, Thom Crowe, Community Manager, and Daniella Pontes, Senior Marketing Product Manager at InfluxData, will detail how to use time-series data to measure everything and anything that you are responsible for—from your infrastructure, your apps, and physical things like sensors. Time series data helps you understand the change over time which is fundamental to making things perform optimally."
+              event="Techstrong.tv"
+              cta="Watch the Episode"
+            />
+            <Appearance
+              href="https://www.podchaser.com/podcasts/the-new-builders-podcast-10984/episodes/ep-41-offline-first-as-a-socia-25876346"
+              title="Offline First as a Social Movement"
+              description="This week, Teri Chadborne joins to Thom introduce Offline Camp, a gathering of people who come together to focus on developing with an Offline First mentality before jumping into a great discussion."
+              event="The New Builders Podcast"
+              cta="Listen to the Episode"
             />
           </SpeakingSection>
         </div>
