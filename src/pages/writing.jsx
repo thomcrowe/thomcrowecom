@@ -43,7 +43,7 @@ export default function Speaking() {
           <SpeakingSection title="Where to read my articles">
             <Appearance
               href="'https://misfitstheology.com/this-i-believe-creeds-in-christianity/"
-              title="This I believe - Creeds in Christianity"
+              title="This I Believe - Creeds in Christianity"
               description="Doctrine matters. It’s not possible to truly be one with diverse teachings. This is why we have creeds - to preserve the faith delivered once and for all - the faith handed to the Apostles by Christ and preserved unconquered by the Holy Spirit’s operation in the Church."
               event="Misfits Theology"
               cta="Read More"
