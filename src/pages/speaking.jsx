@@ -42,7 +42,7 @@ export default function Speaking() {
         <div className="space-y-20">
           <SpeakingSection title="Where to hear me">
             <Appearance
-              href="'https://www.rnz.co.nz/national/programmes/afternoons/audio/2018871818/tis-the-podcast-makers-on-christmas-controversies"
+              href="https://www.rnz.co.nz/national/programmes/afternoons/audio/2018871818/tis-the-podcast-makers-on-christmas-controversies"
               title="'Tis the podcast makers on Christmas controversies!"
               description="December the 25th isn't a date on the calendar, it's a way of life for three super Christmas nerds who jingle their bells year-round. On this episode, they talk through Christmas controversies."
               event="Afternoons with Jessie, Radio New Zeland"
