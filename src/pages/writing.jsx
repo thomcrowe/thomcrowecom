@@ -29,10 +29,10 @@ export default function Speaking() {
   return (
     <>
       <Head>
-        <title>Writing - Thom Crowep</title>
+        <title>Writing - Thom Crowe</title>
         <meta
           name="description"
-          content="I&apos;m available to speak about all things Christmas, Anglo-Christianity, and growth/marketing.."
+          content="I'm available to speak about all things Christmas, Anglo-Christianity, and growth/marketing.."
         />
       </Head>
       <SimpleLayout

@@ -29,10 +29,10 @@ export default function Speaking() {
   return (
     <>
       <Head>
-        <title>Speaking - Thom Crowep</title>
+        <title>Speaking - Thom Crowe</title>
         <meta
           name="description"
-          content="I&apos;m available to speak about all things Christmas, Anglo-Christianity, and growth/marketing.."
+          content="I'm available to speak about all things Christmas, Anglo-Christianity, and growth/marketing.."
         />
       </Head>
       <SimpleLayout
@@ -51,7 +51,7 @@ export default function Speaking() {
             <Appearance
               href="https://goodpods.com/podcasts/totally-rad-christmas-121060/batman-and-dc-comics-pt-1-w-thom-crowe-8674434"
               title="Batman and DC Comics pt 1"
-              description="Thom Crowe joins Gerry D on Totally Rad Christmas to for the first part in a series all about DC Comics and most especially Batman! &quot;Merry Christmas...and a Deadly New Year!,&quot;&quot;Wanted: Santa Claus--Dead or Alive!&quot;, &quot;The Mystery of Christmas Lost!&quot;, &quot;Who's Afraid of the Big Red S?&quot;, and more!!"
+              description='Thom Crowe joins Gerry D on Totally Rad Christmas to for the first part in a series all about DC Comics and most especially Batman! "Merry Christmas...and a Deadly New Year!,""Wanted: Santa Claus--Dead or Alive!", "The Mystery of Christmas Lost!", "Who&apos;s Afraid of the Big Red S?", and more!!'
               event="Totally Rad Christmas"
               cta="Listen to the Podcast"
             />
